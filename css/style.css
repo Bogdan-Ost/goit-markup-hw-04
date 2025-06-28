@@ -112,7 +112,16 @@ button:focus {
 /* -----------------------herobaner start----------------------- */
 
 .herobaner {
-  background: #2e2f42;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/herobaner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  max-width: 1440px;
   margin-bottom: 120px;
   padding: 188px 0 188px;
 }
@@ -173,6 +182,12 @@ button:focus {
 .benefits-list-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
+.benefits-list-item-vector {
+  padding: 24px 100px;
+  border: #8e8f99 1px solid;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
 
 .benefits-list-item-title {
   color: #2e2f42;
@@ -225,6 +240,8 @@ button:focus {
   background-color: #ffffff;
   flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 .team-list-item-title {
   color: #2e2f42;
