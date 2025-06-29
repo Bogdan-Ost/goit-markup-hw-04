@@ -117,7 +117,7 @@ button:focus {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/herobaner.jpg);
+    url("../images/herobaner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
